@@ -1,0 +1,16 @@
+{
+  "name": "PwTest",
+  "version": "1.0.0",
+  "description": "Unit Testing for PageWerkz API server",
+  "main": "app.js",
+  "author": "Okkar",
+  "license": "SEE LICENSE IN AMDON.COM",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.5.3"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  }
+}
